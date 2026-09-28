@@ -1,0 +1,9 @@
+{
+  "format": 1,
+  "product": "Mindspark Bot",
+  "version": "1.1.40",
+  "package_url": "MAACC_Bot_Ubuntu_Update_v1.1.40_Uninstall_StopClosesTabs_20260928.msupdate",
+  "sha256": "a27f5f6bcac3bc25697924b4bcd0f126fa4516a590285ade7bc8e7f273536a93",
+  "size": 592415,
+  "notes": "Ubuntu v1.1.40: adds in-app uninstall and makes Full Auto Stop close all bot-opened tabs."
+}
