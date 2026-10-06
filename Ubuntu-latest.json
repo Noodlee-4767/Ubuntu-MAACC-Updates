@@ -1,9 +1,9 @@
 {
   "format": 1,
   "product": "Mindspark Bot",
-  "version": "1.1.53",
-  "package_url": "https://raw.githubusercontent.com/Noodlee-4767/Ubuntu-MAACC-Updates/main/MAACC_Bot_Ubuntu_Update_v1.1.53_GoldOnly_NoThemePicker_20261006.msupdate",
-  "sha256": "3368c35c14bba4809d1a34585890a51ef296b71b8c4f8c1ebf036ff6af247772",
-  "size": 604735,
-  "notes": "Ubuntu v1.1.53: GUI-only simplification built directly on v1.1.52. Live theme selection is removed from Settings and Ubuntu is forced to the Gold theme at every launch, ignoring any old saved theme preference. This removes the theme-selection flicker while keeping the existing stable embedded Settings/report dialogs. Existing workflow, speeds, timers, reporting, activation, pairing, queue logic, and Ubuntu 20-50 tab limit are unchanged."
+  "version": "1.1.54",
+  "package_url": "https://raw.githubusercontent.com/Noodlee-4767/Ubuntu-MAACC-Updates/main/MAACC_Bot_Ubuntu_Update_v1.1.54_GoldOnly_DropdownFix_20261006.msupdate",
+  "sha256": "cd609087878281912a55af6c5832ef20988ed1008f8f65094c1af0fa14bd9def",
+  "size": 604960,
+  "notes": "Ubuntu v1.1.54: GUI-only dropdown reliability fix built directly on v1.1.53. Ubuntu remains permanently Gold-only with theme selection removed. Repeat/Hindi/Math dropdowns now use Tk's native popup-menu surface so their options stay visible across Ubuntu X11/Wayland/window-manager combinations instead of relying on the previous root-level animated popup frame. Existing automation workflow, speeds, timers, reporting, activation, pairing, queue logic, and Ubuntu 20-50 tab limit are unchanged."
 }
