@@ -1,9 +1,9 @@
 {
   "format": 1,
   "product": "Mindspark Bot",
-  "version": "1.1.51",
-  "package_url": "https://raw.githubusercontent.com/Noodlee-4767/Ubuntu-MAACC-Updates/main/MAACC_Bot_Ubuntu_Update_v1.1.51_WorkflowParity_SettingsResize_20261006.msupdate",
-  "sha256": "ed3ab0f8ddb5f4d57d97f693f18a86f3c7bdaafd70fec35690c851203aa6cf4e",
-  "size": 604522,
-  "notes": "Ubuntu v1.1.51: preserves the proven automation workflow and all intentional v1.1.50 additions, including required activation/Admin Panel reporting, automatic Pairing schedule, unknown-question reporting, diagnostics, and live themes. Embedded Settings/theme/report dialogs now preserve the exact manually resized main-window geometry instead of expanding the bot when opened. Ubuntu tab limit remains unchanged at 20-50."
+  "version": "1.1.52",
+  "package_url": "https://raw.githubusercontent.com/Noodlee-4767/Ubuntu-MAACC-Updates/main/MAACC_Bot_Ubuntu_Update_v1.1.52_GUIStability_LiveThemeFix_20261006.msupdate",
+  "sha256": "4afa3686beab428f1d803ebfee1afe117dce804d20ff8bbe9cff0c13320b993b",
+  "size": 605295,
+  "notes": "Ubuntu v1.1.52: GUI-only stability fix built directly on v1.1.51. Settings/theme/report screens now use one stable modal backdrop and an explicit Linux-safe canvas layout pass, fixing the colored-box-inside-colored-box / missing-controls rendering issue. Live themes update in place with a slightly reduced blur and no popup rebuild. Existing automation workflow, speeds, timers, reporting, activation, pairing, queue logic, and Ubuntu 20-50 tab limit are unchanged."
 }
