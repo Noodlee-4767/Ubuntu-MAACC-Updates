@@ -1,8 +1,8 @@
 {
   "format": 1,
   "product": "Mindspark Bot",
-  "version": "1.1.48",
-  "package_url": "https://raw.githubusercontent.com/Noodlee-4767/Ubuntu-MAACC-Updates/main/MAACC_Bot_Ubuntu_Update_v1.1.48_Windows43_WorkflowParity_20261006.msupdate",
-  "sha256": "12b0106d210f6c4d18b2368c73f8cb9b15f053fad9c1d9e67d045258e278d82f",
-  "notes": "Ubuntu: port Windows v1.1.43 sequential ten-tab login batches with two-second settles, fast focused security/login checks, two-pass Start, redacted contextual JSONL/full logs, segmented per-file repeat progress, locked-account handling and queue/recovery fixes. Keep Ubuntu tab limit 20-50, native Chrome launch, saved verification, and v1.1.47 themes/GUI."
+  "version": "1.1.49",
+  "package_url": "https://raw.githubusercontent.com/Noodlee-4767/Ubuntu-MAACC-Updates/main/MAACC_Bot_Ubuntu_Update_v1.1.49_EmbeddedMenus_18Themes_20261006.msupdate",
+  "sha256": "43a2d7bdf2b6b9ce7256a6e33345c308a892106ddcfdfab2c4bb9067d95a31b5",
+  "notes": "18 saved color-circle themes in a 3x6 picker; original gold palette retained, saturated green buttons and separate true red. Embedded blurred-focus menus, clear gear, prominent Add files, bright red remove/uninstall, stronger repeat separators and compact numeric controls. Preserved per-OS automation/tab limits; explicit failed-phase diagnostics and graceful setup-paused status."
 }
