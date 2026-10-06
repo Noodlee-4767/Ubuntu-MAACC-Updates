@@ -2,7 +2,7 @@
   "format": 1,
   "product": "Mindspark Bot",
   "version": "1.1.46",
-  "package_url": "https://github.com/Noodlee-4767/Ubuntu-MAACC-Updates/releases/download/v1.1.46/MAACC_Bot_Ubuntu_Update_v1.1.46_RequiredSetup_DarkGUI_20261006.msupdate",
+  "package_url": "https://raw.githubusercontent.com/Noodlee-4767/Ubuntu-MAACC-Updates/main/MAACC_Bot_Ubuntu_Update_v1.1.46_RequiredSetup_DarkGUI_20261006.msupdate",
   "sha256": "767028244cc2f509da4ae5e4713793fbc5a0b2e7297317da810b90c5ef47c406",
   "notes": "Required one-time code verification before bot opens; connection retained across updates and progress resets; lightweight dark GUI with rounded buttons, brief hover animations, top mute icon and Settings popup; Ubuntu mute repaired."
 }
