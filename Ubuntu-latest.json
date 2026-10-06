@@ -1,9 +1,9 @@
 {
   "format": 1,
   "product": "Mindspark Bot",
-  "version": "1.1.40",
-  "package_url": "MAACC_Bot_Ubuntu_Update_v1.1.40_Uninstall_StopClosesTabs_20260928.msupdate",
-  "sha256": "a27f5f6bcac3bc25697924b4bcd0f126fa4516a590285ade7bc8e7f273536a93",
-  "size": 592415,
-  "notes": "Ubuntu v1.1.40: adds in-app uninstall and makes Full Auto Stop close all bot-opened tabs."
+  "version": "1.1.44",
+  "package_url": "https://raw.githubusercontent.com/Noodlee-4767/Ubuntu-MAACC-Updates/main/MAACC_Bot_Ubuntu_Update_v1.1.44_AdminPanel_20261005.msupdate",
+  "sha256": "9d7b8c412aa2e23e18086ebfa3a2b7a6673136eef744cbacca008f7b57710240",
+  "size": 597900,
+  "notes": "Connect each device to the private Admin Panel with its one-time setup code. Capture unknown Math and Hindi question evidence once per tab, send in the background, and retry queued reports. Existing answer and tab flow remains active."
 }
