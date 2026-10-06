@@ -1,8 +1,8 @@
 {
   "format": 1,
   "product": "Mindspark Bot",
-  "version": "1.1.46",
-  "package_url": "https://raw.githubusercontent.com/Noodlee-4767/Ubuntu-MAACC-Updates/main/MAACC_Bot_Ubuntu_Update_v1.1.46_RequiredSetup_DarkGUI_20261006.msupdate",
-  "sha256": "767028244cc2f509da4ae5e4713793fbc5a0b2e7297317da810b90c5ef47c406",
-  "notes": "Required one-time code verification before bot opens; connection retained across updates and progress resets; lightweight dark GUI with rounded buttons, brief hover animations, top mute icon and Settings popup; Ubuntu mute repaired."
+  "version": "1.1.48",
+  "package_url": "https://raw.githubusercontent.com/Noodlee-4767/Ubuntu-MAACC-Updates/main/MAACC_Bot_Ubuntu_Update_v1.1.48_Windows43_WorkflowParity_20261006.msupdate",
+  "sha256": "12b0106d210f6c4d18b2368c73f8cb9b15f053fad9c1d9e67d045258e278d82f",
+  "notes": "Ubuntu: port Windows v1.1.43 sequential ten-tab login batches with two-second settles, fast focused security/login checks, two-pass Start, redacted contextual JSONL/full logs, segmented per-file repeat progress, locked-account handling and queue/recovery fixes. Keep Ubuntu tab limit 20-50, native Chrome launch, saved verification, and v1.1.47 themes/GUI."
 }
