@@ -1,9 +1,10 @@
 {
   "format": 1,
   "product": "Mindspark Bot",
-  "version": "1.1.54",
-  "package_url": "https://raw.githubusercontent.com/Noodlee-4767/Ubuntu-MAACC-Updates/main/MAACC_Bot_Ubuntu_Update_v1.1.54_GoldOnly_DropdownFix_20261006.msupdate",
-  "sha256": "cd609087878281912a55af6c5832ef20988ed1008f8f65094c1af0fa14bd9def",
-  "size": 604960,
-  "notes": "Ubuntu v1.1.54: GUI-only dropdown reliability fix built directly on v1.1.53. Ubuntu remains permanently Gold-only with theme selection removed. Repeat/Hindi/Math dropdowns now use Tk's native popup-menu surface so their options stay visible across Ubuntu X11/Wayland/window-manager combinations instead of relying on the previous root-level animated popup frame. Existing automation workflow, speeds, timers, reporting, activation, pairing, queue logic, and Ubuntu 20-50 tab limit are unchanged."
+  "version": "1.1.55",
+  "remote_update_protocol": 1,
+  "package_url": "https://raw.githubusercontent.com/Noodlee-4767/Ubuntu-MAACC-Updates/main/MAACC_Bot_Ubuntu_Update_v1.1.55_RemoteUpdates_InternetRecovery_20261006.msupdate",
+  "sha256": "b96b37c739e89f09069126b2b94ffe7ad4a88e1ee92d3c8ff6ff2d4819949305",
+  "size": 613655,
+  "notes": "Remote update bootstrap: Admin Panel checks, verified OS-specific updates and pinned rollbacks, persistent restart recovery, session-boundary installation with queue progress preserved. Fix blank login tabs after internet recovery and retain the complete batch during setup outages. Existing GUI, activation, reporting and OS tab limits retained."
 }
