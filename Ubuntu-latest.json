@@ -1,10 +1,10 @@
 {
   "format": 1,
   "product": "Mindspark Bot",
-  "version": "1.1.56",
+  "version": "1.1.57",
   "remote_update_protocol": 1,
-  "package_url": "https://raw.githubusercontent.com/Noodlee-4767/Ubuntu-MAACC-Updates/main/MAACC_Bot_Ubuntu_Update_v1.1.56_NeverStop_TabFaultTolerance_20261007.msupdate",
-  "sha256": "0de9b07326d6e646b215085f28043c76f4d1e8b68482bb60a4cab9f77ccd282f",
-  "size": 615347,
-  "notes": "Never-stop tab fault tolerance: Student/Friend Login verification mismatches no longer abort Full Auto; session-expired recovery failures remain tab-local; surviving and defective tabs stay tracked and continue through later phases. Unexpected Full Auto phase/orchestration errors are reported and retried in-place without discarding healthy tabs or advancing queue progress. Explicit Stop, Internet Down recovery, and normal session hard-limit behavior are retained."
+  "package_url": "https://raw.githubusercontent.com/Noodlee-4767/Ubuntu-MAACC-Updates/main/MAACC_Bot_Ubuntu_Update_v1.1.57_FriendPopupTwoPass_NeverStop_20261007.msupdate",
+  "sha256": "5e7ecaf246a98512a3aad8eb6050b13813936a256c627ab589bce1c085aa3b67",
+  "size": 616089,
+  "notes": "Friend Login popup two-pass recovery + never-stop tab fault tolerance: after Friend Login the bot performs two zero-wait scans for the exact #secondary_user_popup .addFriendContainer #closePopup cross; tabs without it are skipped immediately, matching tabs are focused and clicked, and the second pass catches leftovers. Student/Friend Login mismatches and escaped phase/orchestration errors are tab-local/recoverable and no longer stop Full Auto or discard healthy tabs; queue progress is not advanced on retries. Existing OS tab limits, GUI, Admin/Discord reporting, Internet Down recovery and normal session hard-limit behavior are retained."
 }
