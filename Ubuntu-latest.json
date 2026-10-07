@@ -1,10 +1,10 @@
 {
   "format": 1,
   "product": "Mindspark Bot",
-  "version": "1.1.55",
+  "version": "1.1.56",
   "remote_update_protocol": 1,
-  "package_url": "https://raw.githubusercontent.com/Noodlee-4767/Ubuntu-MAACC-Updates/main/MAACC_Bot_Ubuntu_Update_v1.1.55_RemoteUpdates_InternetRecovery_20261006.msupdate",
-  "sha256": "b96b37c739e89f09069126b2b94ffe7ad4a88e1ee92d3c8ff6ff2d4819949305",
-  "size": 613655,
-  "notes": "Remote update bootstrap: Admin Panel checks, verified OS-specific updates and pinned rollbacks, persistent restart recovery, session-boundary installation with queue progress preserved. Fix blank login tabs after internet recovery and retain the complete batch during setup outages. Existing GUI, activation, reporting and OS tab limits retained."
+  "package_url": "https://raw.githubusercontent.com/Noodlee-4767/Ubuntu-MAACC-Updates/main/MAACC_Bot_Ubuntu_Update_v1.1.56_NeverStop_TabFaultTolerance_20261007.msupdate",
+  "sha256": "0de9b07326d6e646b215085f28043c76f4d1e8b68482bb60a4cab9f77ccd282f",
+  "size": 615347,
+  "notes": "Never-stop tab fault tolerance: Student/Friend Login verification mismatches no longer abort Full Auto; session-expired recovery failures remain tab-local; surviving and defective tabs stay tracked and continue through later phases. Unexpected Full Auto phase/orchestration errors are reported and retried in-place without discarding healthy tabs or advancing queue progress. Explicit Stop, Internet Down recovery, and normal session hard-limit behavior are retained."
 }
