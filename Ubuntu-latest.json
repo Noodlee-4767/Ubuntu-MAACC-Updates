@@ -1,10 +1,10 @@
 {
   "format": 1,
   "product": "Mindspark Bot",
-  "version": "1.1.58",
+  "version": "1.1.59",
   "remote_update_protocol": 1,
-  "package_url": "https://raw.githubusercontent.com/Noodlee-4767/Ubuntu-MAACC-Updates/main/MAACC_Bot_Ubuntu_Update_v1.1.58_Step0Preserve_AdminReport_UpdateRepair_20261007.msupdate",
-  "sha256": "30e560e3c99b72a21ba5f55080fb72cf75ae1fdf5bc6dc8f1d8ae8025ea10b5f",
-  "size": 617318,
-  "notes": "Ubuntu Step 0 preserve/recover + Admin reporting + updater-policy repair. Login tabs that fail the transient Step 0 DOM check are no longer closed; every live tab is preserved and passed into Step 1 for normal URL/login recovery, while the batch continues. A recoverable Step 0 anomaly now sends one Bot Report to the Admin Panel with full logs/diagnostics when the client is connected. Startup logs the Admin Panel connection state. If the managed Ubuntu launcher's auto_check flag was left disabled without an active Admin remote pin, the bot safely re-enables it; deliberate Admin pins remain untouched. Includes the v1.1.57 two-pass Friend Login popup cleanup and never-stop tab-fault behavior."
+  "package_url": "https://raw.githubusercontent.com/Noodlee-4767/Ubuntu-MAACC-Updates/main/MAACC_Bot_Ubuntu_Update_v1.1.59_MultiBrowser_Experimental_20261009.msupdate",
+  "sha256": "be5c087d9bc2c2241edb82e0d0d23d649c958c364b864f34ee85f7324458fc18",
+  "size": 622389,
+  "notes": "Experimental Multi-Browser Mode for Windows and Ubuntu: opt-in browser selection, up to six tabs per compatible browser and 36 total, sequential launch and local interaction check, preserved ten-tab workflow and existing Single Browser mode, browser-aware logs, conservative capacity reduction and no queue credit after a browser disconnect. Optional browser installation uses supported package managers only after explicit setup opt-in. ChromeOS remains unchanged. Browser focus and site workflows require validation on target hardware."
 }
