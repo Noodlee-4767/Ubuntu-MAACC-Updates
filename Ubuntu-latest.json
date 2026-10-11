@@ -1,11 +1,11 @@
 {
   "format": 1,
   "product": "Mindspark Bot",
-  "version": "1.1.62",
+  "version": "1.1.63",
   "remote_update_protocol": 1,
-  "package_url": "https://raw.githubusercontent.com/Noodlee-4767/Ubuntu-MAACC-Updates/main/MAACC_Bot_Ubuntu_Update_v1.1.62_BrowserSetupFix_20261011.msupdate",
-  "sha256": "93ed95699f8a1275f1ba53c00f7ccb7cc5372c2510e5acd7bf6897d5e0f0d7f5",
-  "size": 626441,
-  "notes": "Ubuntu browser setup fix: Vivaldi OS check now imports pathlib correctly. APT waits visibly for Ubuntu automatic updates, avoids repeated lock messages, and retries missing browsers on a later launch if the package manager stays busy. Existing login, Single Browser mode, and 36-tab Multi-Browser allocation are unchanged.",
+  "package_url": "https://raw.githubusercontent.com/Noodlee-4767/Ubuntu-MAACC-Updates/main/MAACC_Bot_Ubuntu_Update_v1.1.63_BrowserSetupProgress_20261011.msupdate",
+  "sha256": "53003a94bdd98905742b3942ac2d22464bae2c8a6542f4204641536e7e32734e",
+  "size": 628378,
+  "notes": "Browser setup window now shows an individual progress bar, stage and elapsed time for each Windows and Ubuntu browser. Real installer percentages are displayed when available. Ubuntu administrator authentication has a 45-second countdown. The setup Cancel button and window close control ask for confirmation and stop at a safe installation boundary; missing browsers retry next launch. Ubuntu v1.1.62 Vivaldi and APT-lock fixes are included. ChromeOS is unchanged.",
   "os": "Ubuntu"
 }
