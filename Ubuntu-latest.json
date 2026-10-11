@@ -1,11 +1,11 @@
 {
   "format": 1,
   "product": "Mindspark Bot",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "remote_update_protocol": 1,
-  "package_url": "https://raw.githubusercontent.com/Noodlee-4767/Ubuntu-MAACC-Updates/main/MAACC_Bot_Ubuntu_Update_v1.2.1_InternetDownConfirmation_20261011.msupdate",
-  "sha256": "2d9947a1a04c67d3e22a2a6c85e7477ca29cf810558916747ddbda3a62285146",
-  "size": 629172,
-  "notes": "Internet Down now requires an offline screen on at least one live tab in three full-tab scans, with a 10-second wait between scans. A transient connectivity request timeout no longer invents an offline tab or closes the browser fleet. Unconfirmed navigation failures preserve the tabs and queue for existing recovery. Playwright probe errors no longer print session cookies in the technical log. ChromeOS is unchanged.",
+  "package_url": "https://raw.githubusercontent.com/Noodlee-4767/Ubuntu-MAACC-Updates/main/MAACC_Bot_Ubuntu_Update_v1.2.2_QueueAppend_BrowserFocus_20261011.msupdate",
+  "sha256": "842fedc9015260d0dfe632d9e42cdfbdab1907a601baa21e9817f884dd5da9da",
+  "size": 632017,
+  "notes": "v1.2.2: Add File appends Excel workbooks without clearing existing queue entries, progress or ordering; duplicates and cancellations are harmless. Multi-Browser Mode now attempts to foreground the active OS browser window as well as its tab on Windows and Ubuntu (X11/XWayland), without interrupting browser operations if desktop focus is blocked. All existing Internet Down confirmation and answering logic retained.",
   "os": "Ubuntu"
 }
