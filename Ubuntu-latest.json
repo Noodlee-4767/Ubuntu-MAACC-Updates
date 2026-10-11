@@ -1,11 +1,11 @@
 {
   "format": 1,
   "product": "Mindspark Bot",
-  "version": "1.1.64",
+  "version": "1.2.1",
   "remote_update_protocol": 1,
-  "package_url": "https://raw.githubusercontent.com/Noodlee-4767/Ubuntu-MAACC-Updates/main/MAACC_Bot_Ubuntu_Update_v1.1.64_EdgeDev_20261011.msupdate",
-  "sha256": "59689fed60a462625cae5d4fd85d66add052ec057fdb62ec735208da969ca994",
-  "size": 628426,
-  "notes": "Ubuntu-only browser selection update: Microsoft Edge Dev replaces Vivaldi as the fifth Multi-Browser candidate. Playwright uses the supported msedge-dev channel, and missing Edge Dev installations use the official Microsoft apt repository. Existing Vivaldi installations are left untouched. Retains browser setup progress, authentication timeout, cancellation, Single Browser mode, and up to 36 tabs across six compatible browsers. Windows and ChromeOS are unchanged.",
+  "package_url": "https://raw.githubusercontent.com/Noodlee-4767/Ubuntu-MAACC-Updates/main/MAACC_Bot_Ubuntu_Update_v1.2.1_InternetDownConfirmation_20261011.msupdate",
+  "sha256": "2d9947a1a04c67d3e22a2a6c85e7477ca29cf810558916747ddbda3a62285146",
+  "size": 629172,
+  "notes": "Internet Down now requires an offline screen on at least one live tab in three full-tab scans, with a 10-second wait between scans. A transient connectivity request timeout no longer invents an offline tab or closes the browser fleet. Unconfirmed navigation failures preserve the tabs and queue for existing recovery. Playwright probe errors no longer print session cookies in the technical log. ChromeOS is unchanged.",
   "os": "Ubuntu"
 }
